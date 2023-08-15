@@ -141,4 +141,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv("PORT", default=0.0.0.0))
+    app.run(debug=True, port=os.getenv("PORT", default=0.0.0.0:5551))
